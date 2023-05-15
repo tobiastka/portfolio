@@ -10,8 +10,8 @@
             "Socket io"
         ],
         "imagenes": [
-            "src/assets/henryTech-1.png",
-            "src/assets/henryTech-2.png"
+            "./henryTech-1.png",
+            "./henryTech-2.png"
         ],
         "completo": true
     },
@@ -24,8 +24,8 @@
             "Tailwind"
         ],
         "imagenes": [
-            "src/assets/searchJob-1.png",
-            "src/assets/searchJob-2.png"
+            "./searchJob-1.png",
+            "./searchJob-2.png"
         ],
         "completo": true
     },
@@ -41,8 +41,8 @@
             "Sequelize"
         ],
         "imagenes": [
-            "src/assets/mangaStore-1.png",
-            "src/assets/mangaStore-2.png"
+            "./mangaStore-1.png",
+            "./mangaStore-2.png"
         ],
         "completo": false
     },
@@ -56,8 +56,8 @@
             "Wouter"
         ],
         "imagenes": [
-            "src/assets/myAnime-1.png",
-            "src/assets/myAnime-2.png"
+            "./myAnime-1.png",
+            "./myAnime-2.png"
         ],
         "completo": true
     }
