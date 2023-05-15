@@ -3,7 +3,7 @@ import educacion from './educacion.json'
 
 function App () {
   return (
-    <div className='flex flex-col items-center w-5/6 max-w-2xl md:max-w-4xl mx-auto gap-8'>
+    <div className='flex flex-col items-center w-11/12 max-w-2xl md:max-w-4xl mx-auto gap-8'>
       <header className='flex flex-col md:mb-5 items-center gap-5'>
         <div className='h-44 w-44 relative'>
           <img className='h-full w-full object-cover rounded-full mt-4' src='./profilePicture.jpg' alt='Foto de Tobias Tkaczek en la playa' />
