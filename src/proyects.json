@@ -1,0 +1,64 @@
+[
+    {
+        "titulo": "Henry Tech",
+        "role": "Backend",
+        "descripcion": "Mi responsabilidad en este proyecto fue el diseño y creacion del modelo DB asi como la gestion y creacion de su RestApi.",
+        "tags": [
+            "Node JS",
+            "Express",
+            "Sequelize",
+            "Socket io"
+        ],
+        "imagenes": [
+            "src/assets/henryTech-1.png",
+            "src/assets/henryTech-2.png"
+        ],
+        "completo": true
+    },
+    {
+        "titulo": "Job Search",
+        "role": "Frontend",
+        "descripcion": "Se llevó a cabo el desarrollo de una interfaz de usuario amigable, accesible desde dispositivos móviles, que permitirá a los usuarios buscar trabajo de manera efectiva utilizando filtros de búsqueda.",
+        "tags": [
+            "React",
+            "Tailwind"
+        ],
+        "imagenes": [
+            "src/assets/searchJob-1.png",
+            "src/assets/searchJob-2.png"
+        ],
+        "completo": true
+    },
+    {
+        "titulo": "Manga Store",
+        "role": "FullStack",
+        "descripcion": "Estoy trabajando en el desarrollo de una tienda virtual de manga que ofrecerá a los usuarios una experiencia de compra cómoda y sencilla. En este momento, estamos enfocados en la construcción de la API Rest y el diseño del Frontend de la plataforma.",
+        "tags": [
+            "React",
+            "CSS",
+            "Wouter",
+            "Express",
+            "Sequelize"
+        ],
+        "imagenes": [
+            "src/assets/mangaStore-1.png",
+            "src/assets/mangaStore-2.png"
+        ],
+        "completo": false
+    },
+    {
+        "titulo": "My Anime",
+        "role": "Frontend",
+        "descripcion": "Se ha creado una Single Page Application (SPA) que funciona como un directorio de múltiples elementos relacionados con el mundo del anime y el manga. En esta aplicación, se ha implementado la funcionalidad de scroll infinito para mejorar la experiencia de exploración del usuario en el sitio web.",
+        "tags": [
+            "React",
+            "Tailwind",
+            "Wouter"
+        ],
+        "imagenes": [
+            "src/assets/myAnime-1.png",
+            "src/assets/myAnime-2.png"
+        ],
+        "completo": true
+    }
+]

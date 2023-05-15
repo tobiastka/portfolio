@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Universidad de Mendoza",
+        "nivel": "Ingeniería Biomédica",
+        "logo": "src/assets/um_logo.png",
+        "finalizado": false,
+        "fecha": "2016 - 2022",
+        "descripcion": "Estudié en la universidad donde aprendí mucho sobre matematicas, fisicas y diversas ciencias exactas que me ayudaron a comprender cómo plantear problemas, modelos y soluciones./ Aprendí mucho sobre electronica tanto analogica como digital y tuve mi primer acercamiento a la programación desde un nivel bajo con Assembler hasta un alto nivel con Python"
+    },
+    {
+        "titulo": "Soy Henry",
+        "nivel": "Boot camp Full Stack Developer",
+        "logo": "src/assets/logoOG.png",
+        "finalizado": true,
+        "fecha": "agosto 2022 - diciembre 2022",
+        "descripcion": "Decidí dedicarme de manera full time a estudiar programación y entre al boot camp de Soy Henry donde aprendí a desenvolverme tanto en el frontend como en el backend con tecnologías como HTML, CSS, React, Redux, React-Router-Dom, NodeJS, Express, Sequelize, entre otras."
+    },
+    {
+        "titulo": "Autodidacta",
+        "nivel": "JS Developer",
+        "logo": "src/assets/reddit-logo.png",
+        "finalizado": true,
+        "fecha": "2022 - Actualidad",
+        "descripcion": "Desde que comencé a interesarme por la programación la mayoría del tiempo estudié de forma autodidacta, aprendiendo de cursos gratuitos como 'rArgentinaPrograma', videos de internet y leyendo documentación."
+    }
+]

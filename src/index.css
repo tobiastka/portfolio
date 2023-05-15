@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Poppins:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@300&display=swap');
+
+.my-div:hover .my-image {
+    opacity: 1;
+}
