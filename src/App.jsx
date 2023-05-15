@@ -75,11 +75,11 @@ function App () {
 }
                     </div>
                   </div>
-                  <div className='flex flex-row gap-0.5 md:mt-auto'>
+                  <div className='flex flex-row gap-0.5 md:mt-auto w-full'>
                     {
                       proyecto.imagenes?.map(imagen => {
                         return (
-                          <img className='w-5/6 rounded-sm' key={imagen} src={imagen} />
+                          <img className='w-1/2 rounded-sm' key={imagen} src={imagen} />
                         )
                       })
 }
