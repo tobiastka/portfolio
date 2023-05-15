@@ -11,7 +11,7 @@ function App () {
         </div>
         <div className='flex flex-col gap-3'>
           <h1 style={{ fontSize: '28px' }} className='w-full text-center items-center font-poppins font-extrabold'>Hola, mi nombre es Tobias y soy <br /><span className='px-3 py-0.5 bg-sky-600 text-white w-full  '>Frontend Developer</span></h1>
-          <div className='w-full text-sm md:text-xl flex flex-row justify-center gap-2 font-roboto-mono'>
+          <div className='w-full text-sm md:text-xl flex flex-row flex-wrap justify-center gap-2 font-roboto-mono'>
             <a href='https://www.linkedin.com/in/tobias-tkaczek-2a1b7624b/' target='_blank' className='px-3 bg-yellow-300 rounded-xl hover:shadow-md hover:bg-yellow-400 hover:transition-all  flex flex-row items-center gap-1' rel='noreferrer'>
               <img src='./linkedin.png' className='h-3 inline-block' alt='icono linkedin' />
               LINKEDIN
