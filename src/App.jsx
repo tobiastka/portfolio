@@ -6,22 +6,22 @@ function App () {
     <div className='flex flex-col items-center w-5/6 max-w-2xl md:max-w-4xl mx-auto gap-8'>
       <header className='flex flex-col md:mb-5 items-center gap-5'>
         <div className='h-44 w-44 relative'>
-          <img className='h-full w-full object-cover rounded-full mt-4' src='src/assets/profilePicture.jpg' alt='' />
-          <img className='w-10 h-10 absolute bottom-0 right-0 translate-y-1/2 ' src='src/assets/js.png' alt='' />
+          <img className='h-full w-full object-cover rounded-full mt-4' src='./profilePicture.jpg' alt='Foto de Tobias Tkaczek en la playa' />
+          <img className='w-10 h-10 absolute bottom-0 right-0 translate-y-1/2 ' src='./js.png' alt='Logo de Java Script' />
         </div>
         <div className='flex flex-col gap-3'>
           <h1 style={{ fontSize: '28px' }} className='w-full text-center items-center font-poppins font-extrabold'>Hola, mi nombre es Tobias y soy <br /><span className='px-3 py-0.5 bg-sky-600 text-white w-full  '>Frontend Developer</span></h1>
           <div className='w-full text-sm md:text-xl flex flex-row justify-center gap-2 font-roboto-mono'>
             <a href='https://www.linkedin.com/in/tobias-tkaczek-2a1b7624b/' target='_blank' className='px-3 bg-yellow-300 rounded-xl hover:shadow-md hover:bg-yellow-400 hover:transition-all  flex flex-row items-center gap-1' rel='noreferrer'>
-              <img src='src/assets/linkedin.png' className='h-3 inline-block' alt='' />
+              <img src='./linkedin.png' className='h-3 inline-block' alt='icono linkedin' />
               LINKEDIN
             </a>
             <a href='https://github.com/tobiastka' target='_blank' className='px-3 bg-yellow-300 rounded-xl hover:shadow-md hover:bg-yellow-400 hover:transition-all  flex flex-row items-center gap-1' rel='noreferrer'>
-              <img src='src/assets/github.png' className='h-3 inline-block' alt='' />
+              <img src='./github.png' className='h-3 inline-block' alt='icono github' />
               GITHUB
             </a>
-            <a href='src/assets/cv.pdf' download className='px-3 bg-yellow-300 rounded-xl hover:shadow-md hover:bg-yellow-400 hover:transition-all  flex flex-row items-center gap-1'>
-              <img src='src/assets/cv.png' className='h-3 inline-block' alt='' />
+            <a href='./cv.pdf' download className='px-3 bg-yellow-300 rounded-xl hover:shadow-md hover:bg-yellow-400 hover:transition-all  flex flex-row items-center gap-1'>
+              <img src='./cv.png' className='h-3 inline-block' alt='icono cv' />
               DOWNLOAD CV
             </a>
           </div>
@@ -44,11 +44,11 @@ function App () {
           </p>
           <div className='w-full flex flex-col md:flex-row gap-2 mt-8'>
             <div className='flex flex-col bg-yellow-300 shadow-md'>
-              <img src='src/assets/mate.jpg' alt='Foto de mi mate y mi codigo' />
+              <img src='./mate.jpg' alt='Foto de mi mate y mi codigo' />
               <h3 className='text-xs text-center font-poppins p-1'>No puede faltar un buen matecito a la hora de codear ^^</h3>
             </div>
             <div className='flex flex-col bg-yellow-300 shadow-md'>
-              <img src='src\assets\chibi.jpg' alt='Foto de mi gato' />
+              <img src='.\chibi.jpg' alt='Foto de mi gato' />
               <h3 className='text-xs text-center font-poppins p-1'>Mi gato Chibi me hace compañia mientras programo :)</h3>
             </div>
           </div>
