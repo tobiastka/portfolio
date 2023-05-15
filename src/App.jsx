@@ -48,7 +48,7 @@ function App () {
               <h3 className='text-xs text-center font-poppins p-1'>No puede faltar un buen matecito a la hora de codear ^^</h3>
             </div>
             <div className='flex flex-col bg-yellow-300 shadow-md'>
-              <img src='src/assets/chibi.jpg' alt='Foto de mi gato' />
+              <img src='src\assets\chibi.jpg' alt='Foto de mi gato' />
               <h3 className='text-xs text-center font-poppins p-1'>Mi gato Chibi me hace compañia mientras programo :)</h3>
             </div>
           </div>
