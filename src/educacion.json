@@ -2,10 +2,10 @@
     {
         "titulo": "Universidad de Mendoza",
         "nivel": "Ingeniería Biomédica",
-        "logo": "./um_logo.png",
+        "logo": "./UM_logo.png",
         "finalizado": false,
         "fecha": "2016 - 2022",
-        "descripcion": "Estudié en la universidad donde aprendí mucho sobre matematicas, fisicas y diversas ciencias exactas que me ayudaron a comprender cómo plantear problemas, modelos y soluciones./ Aprendí mucho sobre electronica tanto analogica como digital y tuve mi primer acercamiento a la programación desde un nivel bajo con Assembler hasta un alto nivel con Python"
+        "descripcion": "Estudié en la universidad donde aprendí mucho sobre matemáticas, físicas y diversas ciencias exactas que me ayudaron a comprender cómo plantear problemas, modelos y soluciones./ Aprendí mucho sobre electrónica tanto analógica como digital y tuve mi primer acercamiento a la programación desde un lenguaje de bajo nivel como Assembler hasta uno de alto nivel como Python"
     },
     {
         "titulo": "Soy Henry",
