@@ -2,7 +2,7 @@
     {
         "titulo": "Henry Tech",
         "role": "Backend",
-        "descripcion": "Mi responsabilidad en este proyecto fue el diseño y creacion del modelo DB asi como la gestion y creacion de su RestApi.",
+        "descripcion": "Mi responsabilidad en este proyecto fue el diseño y creación del modelo DB así como la gestión y creación de su RESTful API.",
         "tags": [
             "Node JS",
             "Express",
@@ -13,12 +13,13 @@
             "./henryTech-1.png",
             "./henryTech-2.png"
         ],
+        "deploy": "https://github.com/HenryTechGroup2/HenryTech_Backend",
         "completo": true
     },
     {
         "titulo": "Job Search",
         "role": "Frontend",
-        "descripcion": "Se llevó a cabo el desarrollo de una interfaz de usuario amigable, accesible desde dispositivos móviles, que permitirá a los usuarios buscar trabajo de manera efectiva utilizando filtros de búsqueda.",
+        "descripcion": "Desarrolle una interfaz de usuario amigable, accesible desde dispositivos móviles, que permitirá a los usuarios buscar trabajo de manera efectiva utilizando filtros de búsqueda.",
         "tags": [
             "React",
             "Tailwind"
@@ -27,12 +28,13 @@
             "./searchJob-1.png",
             "./searchJob-2.png"
         ],
+        "deploy": "https://job-search-tobias.netlify.app/",
         "completo": true
     },
     {
         "titulo": "Manga Store",
         "role": "FullStack",
-        "descripcion": "Estoy trabajando en el desarrollo de una tienda virtual de manga que ofrecerá a los usuarios una experiencia de compra cómoda y sencilla. En este momento, estamos enfocados en la construcción de la API Rest y el diseño del Frontend de la plataforma.",
+        "descripcion": "Estoy trabajando en el desarrollo de una tienda virtual de manga que ofrecerá a los usuarios una experiencia de compra cómoda y sencilla. ",
         "tags": [
             "React",
             "CSS",
@@ -44,12 +46,13 @@
             "./mangaStore-1.png",
             "./mangaStore-2.png"
         ],
+        "deploy": "https://github.com/tobiastka/MS_Frontend",
         "completo": false
     },
     {
         "titulo": "My Anime",
         "role": "Frontend",
-        "descripcion": "Se ha creado una Single Page Application (SPA) que funciona como un directorio de múltiples elementos relacionados con el mundo del anime y el manga. En esta aplicación, se ha implementado la funcionalidad de scroll infinito para mejorar la experiencia de exploración del usuario en el sitio web.",
+        "descripcion": "Single Page Application (SPA) que funciona como un directorio de múltiples elementos relacionados con el mundo del anime y el manga. En esta aplicación, implemente scroll infinito para mejorar la experiencia de exploración del usuario en el sitio web.",
         "tags": [
             "React",
             "Tailwind",
@@ -59,6 +62,7 @@
             "./myAnime-1.png",
             "./myAnime-2.png"
         ],
+        "deploy": "https://my-anime-tobias.netlify.app/",
         "completo": true
     }
 ]
