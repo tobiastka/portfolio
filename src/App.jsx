@@ -49,7 +49,7 @@ function App () {
             </div>
             <div className='flex flex-col bg-yellow-300 shadow-md'>
               <img src='.\chibi.jpg' alt='Foto de mi gato' />
-              <h3 className='text-xs text-center font-poppins p-1'>Mi gato Chibi me hace compañia mientras programo :)</h3>
+              <h3 className='text-xs text-center font-poppins p-1'>Mi gato me hace compañía mientras programo :)</h3>
             </div>
           </div>
         </section>
@@ -87,7 +87,7 @@ function App () {
 }
                   </div>
                   <a href={proyecto.deploy} target='_blank' className='font-poppins text-green-600 hover:underline' rel='noreferrer'>
-                    Ver proyecto!
+                    ¡Ver proyecto!
                   </a>
                 </div>
               )
