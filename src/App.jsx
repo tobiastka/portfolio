@@ -34,13 +34,13 @@ function App () {
             Ex estudiante de Ingeniería Biomédica (+4 años) con gran pasión por el desarrollo tecnológico.
           </p>
           <p className='text-sm md:text-xl font-poppins'>
-            Mis primeros pasos en el desarrollo web fue mediante estudios autodidactas, leyendo documentación y siguiendo el curso gratuito de "r/ArgentinaPrograma".
+            Mis primeros pasos en el desarrollo web fueron mediante estudios autodidactas, leyendo documentación y siguiendo el curso gratuito de "r/ArgentinaPrograma".
           </p>
           <p className='text-sm md:text-xl font-poppins'>
-            Egresado de Soy Henry Bootcamp donde a demás de consolidar conocimientos, sume experiencia realizando pair programming y aplicando tecnologías de desarrollo ágil a la hora de realizar proyectos en equipo.
+            Egresado de Soy Henry Bootcamp donde además de consolidar conocimientos, sume experiencia realizando pair programming y aplicando metodologías de desarrollo ágil a la hora de realizar proyectos en equipo.
           </p>
           <p className='text-sm md:text-xl font-poppins'>
-            Actualmente sigo estudiando de forma autodidacta y realizando proyectos para sumar experiencia y aprender buenas practicas!
+            ¡Actualmente sigo estudiando de forma autodidacta y realizando proyectos para sumar experiencia y aprender buenas prácticas!
           </p>
           <div className='w-full flex flex-col md:flex-row gap-2 mt-8'>
             <div className='flex flex-col bg-yellow-300 shadow-md'>
@@ -64,6 +64,7 @@ function App () {
                     <h3 className='font-poppins text-xl md:text-2xl font-semibold text-green-900'>{proyecto.titulo}</h3>
                     <h4 className='font-poppins text-sm md:text-base font-light text-green-700 -mt-1'>{proyecto.role}</h4>
                     <p className='text-xs md:text-base font-nunito'>{proyecto.descripcion}</p>
+
                     <div className='flex flex-row flex-wrap gap-1 justify-center mt-1'>
                       {
                       proyecto.tags.map(tag => {
@@ -74,6 +75,7 @@ function App () {
                       )
 }
                     </div>
+
                   </div>
                   <div className='flex flex-row gap-0.5 md:mt-auto w-full'>
                     {
@@ -84,6 +86,9 @@ function App () {
                       })
 }
                   </div>
+                  <a href={proyecto.deploy} target='_blank' className='font-poppins text-green-600 hover:underline' rel='noreferrer'>
+                    Ver proyecto!
+                  </a>
                 </div>
               )
             })
