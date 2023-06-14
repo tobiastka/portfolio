@@ -29,7 +29,7 @@ function App () {
       </header>
       <main className='w-full flex flex-col gap-16'>
         <section className='flex flex-col gap-2 before:w-full before:content-[""] before:border-t-2 before:border-black'>
-          <h2 className='px-2 -mt-2 bg-red-400 font-poppins font-semibold text-xl md:text-2xl md:w-44 text-white w-28  text-center align-middle'>SOBRE MI</h2>
+          <h2 className='px-2 -mt-2 bg-red-400 font-poppins font-semibold text-xl md:text-2xl md:w-44 text-white w-32 text-center align-middle'>SOBRE MI</h2>
           <p className='text-sm md:text-xl font-poppins mt-4'>
             Ex estudiante de Ingeniería Biomédica (+4 años) con gran pasión por el desarrollo tecnológico.
           </p>
@@ -57,52 +57,52 @@ function App () {
           <h2 className='px-2 -mt-4 bg-red-400 font-sans font-semibold text-xl text-white w-36 text-center md:text-2xl md:w-44'>PROYECTOS</h2>
           <div className='flex flex-col gap-4 md:grid md:grid-cols-2 mt-4'>
             {
-            proyectos.map(proyecto => {
-              return (
-                <div className='flex flex-col gap-2 hover:bg-green-50 hover:transition-all p-2 shadow-md' key={proyecto.titulo}>
-                  <div className='flex flex-col gap-0.5'>
-                    <h3 className='font-poppins text-xl md:text-2xl font-semibold text-green-900'>{proyecto.titulo}</h3>
-                    <h4 className='font-poppins text-sm md:text-base font-light text-green-700 -mt-1'>{proyecto.role}</h4>
-                    <p className='text-xs md:text-base font-nunito'>{proyecto.descripcion}</p>
+              proyectos.map(proyecto => {
+                return (
+                  <div className='flex flex-col gap-2 hover:bg-green-50 hover:transition-all p-2 shadow-md' key={proyecto.titulo}>
+                    <div className='flex flex-col gap-0.5'>
+                      <h3 className='font-poppins text-xl md:text-2xl font-semibold text-green-900'>{proyecto.titulo}</h3>
+                      <h4 className='font-poppins text-sm md:text-base font-light text-green-700 -mt-1'>{proyecto.role}</h4>
+                      <p className='text-xs md:text-base font-nunito'>{proyecto.descripcion}</p>
 
-                    <div className='flex flex-row flex-wrap gap-1 justify-center mt-1'>
-                      {
-                      proyecto.tags.map(tag => {
-                        return (
-                          <div className='bg-green-500 py-0.5 px-1 text-white flex items-start text-xs md:text-base rounded-sm' key={tag}>{tag}</div>
-                        )
-                      }
-                      )
-}
+                      <div className='flex flex-row flex-wrap gap-1 justify-center mt-1'>
+                        {
+                          proyecto.tags.map(tag => {
+                            return (
+                              <div className='bg-green-500 py-0.5 px-1 text-white flex items-start text-xs md:text-base rounded-sm' key={tag}>{tag}</div>
+                            )
+                          }
+                          )
+                        }
+                      </div>
+
                     </div>
-
+                    <div className='flex flex-row gap-0.5 md:mt-auto w-full'>
+                      {
+                        proyecto.imagenes?.map(imagen => {
+                          return (
+                            <img className='w-1/2 rounded-sm' key={imagen} src={imagen} />
+                          )
+                        })
+                      }
+                    </div>
+                    <a href={proyecto.deploy} target='_blank' className='font-poppins text-green-600 hover:underline' rel='noreferrer'>
+                      ¡Ver proyecto!
+                    </a>
                   </div>
-                  <div className='flex flex-row gap-0.5 md:mt-auto w-full'>
-                    {
-                      proyecto.imagenes?.map(imagen => {
-                        return (
-                          <img className='w-1/2 rounded-sm' key={imagen} src={imagen} />
-                        )
-                      })
-}
-                  </div>
-                  <a href={proyecto.deploy} target='_blank' className='font-poppins text-green-600 hover:underline' rel='noreferrer'>
-                    ¡Ver proyecto!
-                  </a>
-                </div>
-              )
-            })
-          }
+                )
+              })
+            }
           </div>
         </section>
         <section className='flex flex-col gap-4 before:w-full before:content-[""] before:border-t-2 before:border-black'>
           <h2 className='px-2 -mt-4 bg-red-400 font-poppins font-semibold text-xl text-white w-36 text-center md:text-2xl md:w-44'>EDUCACION</h2>
           <div className='flex flex-col mt-4'>
             {
-              educacion.map((elemento,index) => {
+              educacion.map((elemento, index) => {
                 return (
                   <div key={elemento.titulo} className='max-w-full ml-3 flex flex-col justify-center items-center'>
-                    <div className={`pl-4 md:pl-8 max-w-xs md:max-w-md font-poppins flex flex-col gap-2 relative ${(index+1) !== educacion.length ? "border-l-2" : "border-l-0"} pb-10`}>
+                    <div className={`pl-4 md:pl-8 max-w-xs md:max-w-md font-poppins flex flex-col gap-2 relative ${(index + 1) !== educacion.length ? 'border-l-2' : 'border-l-0'} pb-10`}>
                       <h3 className=''>{elemento.titulo}</h3>
                       <img src={elemento.logo} className='h-6 w-6 md:w-12 md:h-12 rounded-full object-cover absolute left-0 top-0 -translate-x-1/2 border-2' alt='' />
                       <div className='flex flex-row gap-1 flex-wrap'>
