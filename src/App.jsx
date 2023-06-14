@@ -3,7 +3,7 @@ import educacion from './educacion.json'
 
 function App () {
   return (
-    <div className='flex flex-col items-center w-11/12 max-w-2xl md:max-w-4xl mx-auto gap-8'>
+    <div className='flex flex-col items-center w-11/12 max-w-2xl md:max-w-4xl mx-auto gap-8 pb-20'>
       <header className='flex flex-col md:mb-5 items-center gap-5'>
         <div className='h-44 w-44 relative'>
           <img className='h-full w-full object-cover rounded-full mt-4' src='./profilePicture.jpg' alt='Foto de Tobias Tkaczek en la playa' />
@@ -29,7 +29,7 @@ function App () {
       </header>
       <main className='w-full flex flex-col gap-16'>
         <section className='flex flex-col gap-2 before:w-full before:content-[""] before:border-t-2 before:border-black'>
-          <h2 className='px-2 -mt-2 bg-red-400 font-sans font-semibold text-xl md:text-2xl md:w-44 text-white w-28  text-center align-middle'>SOBRE MI</h2>
+          <h2 className='px-2 -mt-2 bg-red-400 font-poppins font-semibold text-xl md:text-2xl md:w-44 text-white w-28  text-center align-middle'>SOBRE MI</h2>
           <p className='text-sm md:text-xl font-poppins mt-4'>
             Ex estudiante de Ingeniería Biomédica (+4 años) con gran pasión por el desarrollo tecnológico.
           </p>
@@ -54,7 +54,7 @@ function App () {
           </div>
         </section>
         <section className='flex flex-col gap-4 before:w-full before:content-[""] before:border-t-2 before:border-black'>
-          <h2 className='px-2 -mt-4 bg-red-400 font-poppins font-extrabold text-xl text-white w-36 text-center md:text-2xl md:w-44'>PROYECTOS</h2>
+          <h2 className='px-2 -mt-4 bg-red-400 font-sans font-semibold text-xl text-white w-36 text-center md:text-2xl md:w-44'>PROYECTOS</h2>
           <div className='flex flex-col gap-4 md:grid md:grid-cols-2 mt-4'>
             {
             proyectos.map(proyecto => {
@@ -96,13 +96,13 @@ function App () {
           </div>
         </section>
         <section className='flex flex-col gap-4 before:w-full before:content-[""] before:border-t-2 before:border-black'>
-          <h2 className='px-2 -mt-4 bg-red-400 font-poppins font-extrabold text-xl text-white w-36 text-center md:text-2xl md:w-44'>EDUCACION</h2>
+          <h2 className='px-2 -mt-4 bg-red-400 font-poppins font-semibold text-xl text-white w-36 text-center md:text-2xl md:w-44'>EDUCACION</h2>
           <div className='flex flex-col mt-4'>
             {
-              educacion.map(elemento => {
+              educacion.map((elemento,index) => {
                 return (
                   <div key={elemento.titulo} className='max-w-full ml-3 flex flex-col justify-center items-center'>
-                    <div className='pl-4 md:pl-8 max-w-xs md:max-w-md font-poppins flex flex-col gap-2 relative border-l-2 pb-10'>
+                    <div className={`pl-4 md:pl-8 max-w-xs md:max-w-md font-poppins flex flex-col gap-2 relative ${(index+1) !== educacion.length ? "border-l-2" : "border-l-0"} pb-10`}>
                       <h3 className=''>{elemento.titulo}</h3>
                       <img src={elemento.logo} className='h-6 w-6 md:w-12 md:h-12 rounded-full object-cover absolute left-0 top-0 -translate-x-1/2 border-2' alt='' />
                       <div className='flex flex-row gap-1 flex-wrap'>
